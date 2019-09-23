@@ -1,0 +1,64 @@
+body {
+    background: orange;
+    font-family: sans-serif;
+    padding: 20px;
+}
+.applicant {
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: darkorange;
+    text-align: center;
+}
+.applicant h2 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.applicant p {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.applicant input[type = "text"], .applicant input[type = "tel"], .applicant input[type = "email"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid mediumslateblue;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.applicant input[type = "text"]:focus, .applicant input[type = "password"]:focus, .applicant input[type = "email"]:focus {
+    width: 200px;
+    border-color: darkcyan;
+}
+
+.applicant input[type = "submit"] {
+        border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid darkcyan;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.applicant input[type = "submit"]:hover {
+    background: darkcyan;
+}
