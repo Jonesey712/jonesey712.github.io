@@ -4,27 +4,36 @@ body {
     padding: 20px;
 }
 .applicant {
-    width: 300px;
-    padding: 40px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: darkorange;
-    text-align: center;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
 }
 .applicant h2 {
     color: white;
     text-transform: uppercase;
     font-weight: 500;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.applicant h3 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 4;
 }
 
 .applicant p {
     color: white;
     text-transform: uppercase;
     font-weight: 500;
+    grid-column-start: 2;
+    grid-column-end: 4;
 }
-.applicant input[type = "text"], .applicant input[type = "tel"], .applicant input[type = "email"] {
+.applicant input[type = "text"], .applicant input[type = "tel"], .applicant input[type = "email"], .applicant input[type = "date"] {
     border: 0;
     background: none;
     display: block;
@@ -35,19 +44,31 @@ body {
     width: 200px;
     outline: none;
     color: white;
-    border-radius: 24px;
-    transition: 0.25s;
+    grid-column-start: 2;
+    grid-column-end: 4;
 }
+
+.applicant textarea[type = "text"] {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.applicant input[type = "checkbox"] {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
 
 .applicant input[type = "text"]:focus, .applicant input[type = "password"]:focus, .applicant input[type = "email"]:focus {
     width: 200px;
     border-color: darkcyan;
+    
 }
 
 .applicant input[type = "submit"] {
         border: 0;
     background: none;
-    display: block;
+    
     margin: 20px auto;
     text-align: center;
     border: 2px solid darkcyan;
@@ -57,6 +78,8 @@ body {
     border-radius: 24px;
     transition: 0.25s;
     cursor: pointer;
+    grid-column-start: 2;
+    grid-column-end: 4;
 }
 
 .applicant input[type = "submit"]:hover {
