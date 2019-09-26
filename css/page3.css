@@ -1,0 +1,41 @@
+body {
+    background: orange;
+    font-family: sans-serif;
+    padding: 20px;
+}
+.page3 {
+    display: grid;
+    grid-template-columns: 25% 1fr 25%;
+    grid-template-rows: repeat(1fr);
+}
+
+.applicant input[type="date"] {
+    display: inline-block;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.applicant textarea[type = "text"] {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.applicant input[type = "checkbox"] {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.applicant input[type = "text"], .applicant input[type = "tel"], .applicant input[type = "email"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid mediumslateblue;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
