@@ -9,13 +9,13 @@ body {
     grid-template-rows: repeat(1fr);
 }
 
-.applicant input[type="date"] {
+.page4 input[type="date"] {
     display: inline-block;
     grid-column-start: 1;
     grid-column-end: 3;
 }
 
-.applicant input[type = "text"], .applicant input[type = "tel"], .applicant input[type = "email"]{
+.page4 input[type = "text"], 
     border: 0;
     background: none;
     display: block;

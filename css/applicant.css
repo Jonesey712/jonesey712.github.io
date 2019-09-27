@@ -8,36 +8,13 @@ body {
     grid-template-columns: 25% 1fr 25%;
     grid-template-rows: repeat(1fr);
 }
-.applicant2 {
-    display: grid;
-    grid-template-columns: 25% 1fr 25%;
-    grid-template-rows: repeat(1fr);
-}
 
 .applicant h2 {
     color: white;
     text-transform: uppercase;
     font-weight: 500;
     text-align: center;
-    grid-column-start: 1;
-    grid-column-end: 3;
-}
-
-.applicant h3 {
-    color: white;
-    text-transform: uppercase;
-    font-weight: 500;
-    text-align: center;
-    grid-column-start: 1;
-    grid-column-end: 3;
-}
-
-
-applicant p {
-    color: white;
-    text-transform: uppercase;
-    font-weight: 500;
-    grid-column-start: 1;
+    grid-column-start: 2;
     grid-column-end: 3;
 }
 
@@ -52,20 +29,17 @@ applicant p {
     width: 200px;
     outline: none;
     color: white;
-    grid-column-start: 1;
+    grid-column-start: 2;
     grid-column-end: 3;
 }
 
-
-.applicant2 input[type = "submit"]:hover {
+.applicant input[type = "submit"] {
     background: darkcyan;
-}
-
-.applicant2 h3 {
-    color: white;
-    text-transform: uppercase;
-    font-weight: 500;
+    display: block;
+    margin: 20px auto;
     text-align: center;
-    grid-column-start: 3;
-    grid-column-end: 4;
+    padding: 14px 10px;
+    width: 200px;
+    grid-column-start: 2;
+    grid-column-end: 3;
 }
