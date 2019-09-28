@@ -4,7 +4,7 @@ body {
     padding: 20px;
 }
 
-.page5 h1 {
+.page6 h1 {
     color: white;
     text-transform: uppercase;
     font-weight: 500;
@@ -13,13 +13,13 @@ body {
     grid-column-end: 3;
 }
 
-.page5 {
+.page6 {
     display: grid;
     grid-template-columns: 25% 1fr 25%;
     grid-template-rows: repeat(1fr);
 }
 
-.page5 p {
+.page6 p {
     font: serif;
     font-size: 12;
     text-align: center;
@@ -27,12 +27,14 @@ body {
     grid-column-end: 3;
 }
 
-.page5 input[type="date"] {
+.page6 input[type="date"] {
+    width: 100px;
+    margin-left: 100px;
     grid-column-start: 2;
     grid-column-end: 3;
 }
 
-.page5 input[type = "text"]{
+.page6 input[type = "text"]{
     border: 0;
     background: none;
     display: block;
@@ -43,6 +45,16 @@ body {
     width: 200px;
     outline: none;
     color: white;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.page6 textarea[type = "text"] {
+    width: 300px;
+    height: 100px;
+    display: block;
+    border: 2px solid mediumslateblue;
+    padding: 14px 10px;
     grid-column-start: 2;
     grid-column-end: 3;
 }
