@@ -4,7 +4,7 @@ body {
     padding: 20px;
 }
 
-.page4 h1 {
+.page5 h1 {
     color: white;
     text-transform: uppercase;
     font-weight: 500;
@@ -13,25 +13,26 @@ body {
     grid-column-end: 3;
 }
 
-.page4 {
+.page5 {
     display: grid;
     grid-template-columns: 25% 1fr 25%;
     grid-template-rows: repeat(1fr);
 }
 
-.page4 p {
+.page5 p {
     font: serif;
     font-size: 12;
     text-align: center;
     grid-column-start: 2;
     grid-column-end: 3;
 }
-.page4 input[type="date"] {
+
+.page5 input[type="date"] {
     grid-column-start: 2;
     grid-column-end: 3;
 }
 
-.page4 input[type = "text"]{
+.page5 input[type = "text"]{
     border: 0;
     background: none;
     display: block;
@@ -46,7 +47,7 @@ body {
     grid-column-end: 3;
 }
 
-.page4 input[type = "submit"]{
+.page5 input[type = "submit"]{
     background: darkcyan;
     display: block;
     margin: 20px auto;
