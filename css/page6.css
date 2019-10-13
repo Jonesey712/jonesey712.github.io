@@ -29,7 +29,7 @@ body {
 
 .page6 input[type="date"] {
     width: 100px;
-    margin-left: 100px;
+    margin-left: 135px;
     grid-column-start: 2;
     grid-column-end: 3;
 }
